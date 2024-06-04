@@ -1,0 +1,31 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.container :hover {
+    border: 2px solid salmon;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section
+p {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+h1,h2,h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
